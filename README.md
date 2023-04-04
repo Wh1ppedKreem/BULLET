@@ -1,5 +1,5 @@
 # **EZToolkit**
-EZToolkit allows you to perform perform lengthy, cumbersome and constantly repeating commands with ease. It can:
+## EZToolkit allows you to perform perform lengthy, cumbersome and constantly repeating commands with ease. It can:
 - Create msfvenom payloads
 - Setup a listener
 - Perform Nmap scans
