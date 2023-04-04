@@ -1,2 +1,7 @@
 # **EZToolkit**
-EZToolkit allows you to perform perform lengthy, cumbersome and constantly repeating commands with ease. It can create msfvenom payloads, setup a listener, perform nmap scans, perform sqlmap attacks and even a soon to come DoS option for stress testing servers.
+EZToolkit allows you to perform perform lengthy, cumbersome and constantly repeating commands with ease. It can:
+- Create msfvenom payloads
+- Setup a listener
+- Perform Nmap scans
+- Run SQLmap scans
+- And perform a DoS attack for stress testing servers (COMING SOON)
