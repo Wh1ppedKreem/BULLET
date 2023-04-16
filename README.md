@@ -10,6 +10,5 @@ EZToolkit allows you to perform perform lengthy, cumbersome and constantly repea
 
 # **Installation**
 ```
-
 https://github.com/Wh1ppedKreem/EZToolkit.git
 ```
