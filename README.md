@@ -9,4 +9,7 @@ EZToolkit allows you to perform perform lengthy, cumbersome and constantly repea
  - And perform a DoS attack for stress testing servers (COMING SOON)
 
 # **Installation**
-//asdada//
+```
+
+https://github.com/Wh1ppedKreem/EZToolkit.git
+```
