@@ -6,7 +6,7 @@ EZToolkit allows you to perform perform lengthy, cumbersome and constantly repea
  - Run SQLmap scans
  - Bruteforce passwords on services with Hydra (COMING SOON)
  - Bruteforce password hashes with John The Ripper (COMING SOON)
- - And perform a DoS attack for stress testing servers (COMING SOON)
+ - Perform a DoS attack for stress testing servers (COMING SOON)
 
 # **Installation**
 ## Clone the repository: 
