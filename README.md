@@ -21,7 +21,7 @@ $ cd EZToolkit
 ```
 $ sudo python3 eztoolkit.py
 ```
-## Use the "Download the requirements" option (option 9): 
+## Use the "Download the requirements" option [9]: 
 ```
 Enter an option [1-9] [99 to exit]: 9
 ```
