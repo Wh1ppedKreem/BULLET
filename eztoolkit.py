@@ -1,6 +1,8 @@
 #!/usr/bin/python
 #
-#                                  [Insert code license information here]
+#                                                 MIT License
+#                                        Copyright (c) 2023 Wh1ppedKreem
+#
 #
 #                     _____________  ____________                  ___    ___   ___   ___________
 #                    /  _______   / /____   ____/                 /  /   /  / _/ _/  /  __   ___/
