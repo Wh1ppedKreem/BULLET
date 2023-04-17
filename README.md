@@ -1,5 +1,4 @@
-# **EZToolkit**
-[![Python Version](https://img.shields.io/badge/Python-v3.11%2B-blue)](https://www.python.org/downloads/)
+# **EZToolkit**[![Python Version](https://img.shields.io/badge/Python-v3.11%2B-blue)](https://www.python.org/downloads/)
 
 <p align="center">
   <img src="Images/eztoolkitmainmenu.png" width="500px" alt="EZToolkit-Main-Menu" />
