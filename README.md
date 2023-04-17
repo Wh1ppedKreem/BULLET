@@ -4,6 +4,7 @@ EZToolkit allows you to perform perform lengthy, cumbersome and constantly repea
  - Setup a listener
  - Perform Nmap scans
  - Run SQLmap scans
+ - Encode and decode base64 strings
  - Bruteforce passwords on services with Hydra (COMING SOON)
  - Bruteforce password hashes with John The Ripper (COMING SOON)
  - Perform a DoS attack for stress testing servers (COMING SOON)
