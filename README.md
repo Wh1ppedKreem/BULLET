@@ -1,6 +1,10 @@
 # **EZToolkit**
 [![Python Version](https://img.shields.io/badge/Python-v3.11%2B-blue)](https://www.python.org/downloads/)
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Wh1ppedKreem/EZToolkit/images/eztoolkitmainmenu.png" width="600px" alt="EZToolkit-Main-Menu" />
+</p>
+
 ### EZToolkit allows you to perform perform lengthy, cumbersome and constantly repeating commands with ease. It can:
  - Create msfvenom payloads
  - Setup a listener
