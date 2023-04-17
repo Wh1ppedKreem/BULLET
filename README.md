@@ -3,7 +3,7 @@
 BULLET is a penetration testing framework with all the necessary tools a hacker would need without the hassle of typing out all the commands. Now, you can setup a listener, generate a payload, run an SQLi scan, run a network scan, bruteforce service passwords, bruteforce hashes, scan for directories, scan for usernames, encode/decode base64 and perform DoS attacks all in one place. It's like a swiss army knife for hacking!
 
 <p align="center">
-  <img src="Images/eztoolkitmainmenu.png" width="500px" alt="EZToolkit-Main-Menu" />
+  <img src="Images/bulletmainmenu.png" width="500px" alt="BULLET-Main-Menu" />
 </p>
 
 ### BULLET allows you to perform perform lengthy, cumbersome and constantly repeating commands with ease. It can:
