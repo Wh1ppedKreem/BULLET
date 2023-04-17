@@ -10,6 +10,7 @@
  - Setup a listener
  - Perform Nmap scans
  - Run SQLmap scans
+ - Run various OSINT tools
  - Encode and decode base64 strings
  - Bruteforce passwords on services with Hydra (COMING SOON)
  - Bruteforce password hashes with John The Ripper (COMING SOON)
