@@ -9,6 +9,8 @@ EZToolkit allows you to perform perform lengthy, cumbersome and constantly repea
  - Perform a DoS attack for stress testing servers (COMING SOON)
 
 # **Installation**
+
+## **[Linux](https://wikipedia.org/wiki/Linux) Installation**
 ### Clone the repository: 
 ```
 $ git clone https://github.com/Wh1ppedKreem/EZToolkit.git
