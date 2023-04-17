@@ -1,6 +1,6 @@
 # **EZToolkit** [![Python Version](https://img.shields.io/badge/Python-v3.11%2B-blue)](https://www.python.org/downloads/)
 
-EZToolkit is a penetration testing framework with all the necessary tools a hacker would need without the hassle of typing out all the commands. Now, you can use netcat listeneers, nmap, sqlmap, msfvenom, hydra, JohnTheRipper, encode/decode base64, sherlock and dirb all in one place. It's like a swiss army knife for hacking!
+EZToolkit is a penetration testing framework with all the necessary tools a hacker would need without the hassle of typing out all the commands. Now, you can use netcat listeneers, nmap, sqlmap, msfvenom, hydra, JohnTheRipper, encode/decode base64, sherlock and dirb and perform DoS attacks all in one place. It's like a swiss army knife for hacking!
 
 <p align="center">
   <img src="Images/eztoolkitmainmenu.png" width="500px" alt="EZToolkit-Main-Menu" />
