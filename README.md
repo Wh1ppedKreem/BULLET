@@ -36,3 +36,6 @@ $ sudo python3 bullet.py
 ```
 Enter an option [1-9] [99 to exit]: 9
 ```
+
+# License Information
+The BULLET Framework is licensed under the GNU General Public License v3.0
