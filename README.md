@@ -7,7 +7,7 @@ BULLET is a penetration testing framework with all the necessary tools a hacker 
 </p>
 
 ### BULLET allows you to perform perform lengthy, cumbersome and constantly repeating commands with ease. It can:
- - Create msfvenom payloads
+ - Generate msfvenom payloads
  - Setup a listener
  - Perform Nmap scans
  - Run SQLmap scans
