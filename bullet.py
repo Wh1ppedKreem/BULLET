@@ -1,15 +1,13 @@
 #!/usr/bin/python
 #
-#                                                 MIT License
-#                                        Copyright (c) 2023 Wh1ppedKreem
 #
-#
-#                     _____________  ____________                  ___    ___   ___   ___________
-#                    /  _______   / /____   ____/                 /  /   /  / _/ _/  /  __   ___/
-#                   /  / __   /  /      /  /  _________________  /  /   /  /_/ _/   /  / /  /
-#                  /    __/  /  /      /  /  /  __   //  __   / /  /   /  __  /    /  / /  /
-#                 /  /______/  /___   /  /  /  /_/  //  /_/  / /  /___/  / /_ /_  /  / /  /
-#                /________________/  /__/  /_______//_______/ /_________/   /__/ /__/ /__/
+#                                        GNU General Public License v3.0
+#                       ____________  ____    ____  ____  ____      __________ _____________
+#                      /    ___    / /   /   /   / /   / /   /     /   ______//____    ____/
+#                     /    /__/   / /   /   /   / /   / /   /     /   /___        /   /
+#                    /    ___   <  /   /   /   / /   / /   /     /    ___/       /   /
+#                   /    /__/   / /   /___/   / /   /_/   /___  /   /______     /   /
+#                  /___________/ /___________/ /_____________/ /__________/    /___/
 #
 #                                      Code written by Wh1ppedKreem
 #                            My Github profile https://github.com/Wh1ppedKreem
@@ -63,12 +61,12 @@ def get_user_choice(is_valid_option, prompt, invalid_message=None):
 # Hand-made ASCII art by me ;)
 BANNER = f"""\
 {tc.RED}*************************************************************************************
-{tc.RED}*      _____________  ____________                  ___    ___   ___   ___________  *
-{tc.RED}*     /  _______   / /____   ____/                 /  /   /  / _/ _/  /  __   ___/  *
-{tc.RED}*    /  / __   /  /      /  /  _________________  /  /   /  /_/ _/   /  / /  /      *
-{tc.RED}*   /    __/  /  /      /  /  /  __   //  __   / /  /   /  __  /    /  / /  /       *
-{tc.RED}*  /  /______/  /___   /  /  /  /_/  //  /_/  / /  /___/  / /_ /_  /  / /  /        *
-{tc.RED}* /________________/  /__/  /_______//_______/ /_________/   /__/ /__/ /__/         *
+{tc.RED}*         ____________  ____    ____  ____  ____      __________ _____________      *
+{tc.RED}*        /    ___    / /   /   /   / /   / /   /     /   ______//____    ____/      *
+{tc.RED}*       /    /__/   / /   /   /   / /   / /   /     /   /___        /   /           *
+{tc.RED}*      /    ___   <  /   /   /   / /   / /   /     /    ___/       /   /            *
+{tc.RED}*     /    /__/   / /   /___/   / /   /_/   /___  /   /______     /   /             *
+{tc.RED}*    /___________/ /___________/ /_____________/ /__________/    /___/              *
 {tc.RED}*                                                                                   *
 {tc.RED}*                                  11111111                                         *
 {tc.RED}*                                111111111111                                       *
@@ -84,6 +82,32 @@ BANNER = f"""\
 {tc.RED}*                  --------- Coded By Wh1ppedKreem ---------                        *
 {tc.RED}*               Follow me on Github: https://github.com/Wh1ppedKreem                *                  
 {tc.RED}*                  [!] Do not use this tool for illegal purposes.                   *                
+{tc.RED}*************************************************************************************{tc.RESET}
+"""
+
+QUITBANNER = f"""
+{tc.RED}*************************************************************************************
+{tc.RED}*         ____________  ____    ____  ____  ____      __________ _____________      *
+{tc.RED}*        /    ___    / /   /   /   / /   / /   /     /   ______//____    ____/      *
+{tc.RED}*       /    /__/   / /   /   /   / /   / /   /     /   /___        /   /           *
+{tc.RED}*      /    ___   <  /   /   /   / /   / /   /     /    ___/       /   /            *
+{tc.RED}*     /    /__/   / /   /___/   / /   /_/   /___  /   /______     /   /             *
+{tc.RED}*    /___________/ /___________/ /_____________/ /__________/    /___/              *
+{tc.RED}*                                                                                   *
+{tc.RED}*                                  11111111                                         *
+{tc.RED}*                                111111111111                                       *
+{tc.RED}*                                111111111111                                       *
+{tc.RED}*                               111  1111  111                                      *
+{tc.RED}*                               111   11   111                                      *
+{tc.RED}*                                11111 111111                                       *
+{tc.RED}*                               111 11  11 111                                      *
+{tc.RED}*                                 1 100001 1                                        *
+{tc.RED}*                                 1110000111                                        *
+{tc.RED}*                                   111111                                          *
+{tc.RED}*                                                                                   *
+{tc.RED}*                  --------- Coded By Wh1ppedKreem ---------                        *
+{tc.RED}*       Thank you for using the BULLET framework. Hope to see you soon ;)           *                  
+{tc.RED}*              Follow me on Github: https://github.com/Wh1ppedKreem                 *                
 {tc.RED}*************************************************************************************{tc.RESET}
 """
 
@@ -152,14 +176,14 @@ def main():
     print(BANNER)
     while True:
         if os.geteuid() != 0:
-            print(f"{tc.YELLOW}[!] EZToolkit requires root privelages! Try running \"Run sudo python3 eztoolkit.py\" to fix your issue.{tc.RESET}")
+            print(f"{tc.YELLOW}[!] BULLET requires root privelages! Try running \"sudo python3 bullet.py\" to fix your issue.{tc.RESET}")
             quit()
         print(OPTIONS)
         choice = int(input("Enter an option [1-9] [99 to exit]: "))
 
         # Quit option
         if choice == 99:
-            print("Quitting...")
+            print(QUITBANNER)
             quit()
 
         # Requirements' download script starts here
@@ -258,18 +282,34 @@ def main():
                     os.system(f"nmap -T1 {ip_address}")
             elif nmapChoice == 2:
                 # Light Scan
-                os.system(f"nmap -T3 {ip_address} -p {nmapPortSelection}")
+                portQuery = input("Would you like to [1] scan a specific port or [2] all ports? >>> ")
+                if portQuery == 1:
+                    os.system(f"nmap -T3 {ip_address} -p {nmapPortSelection}")
+                elif portQuery == 2:
+                    os.system(f"nmap -T3 {ip_address}")
             elif nmapChoice == 3:
                 # Moderate Scan
-                os.system(f"nmap -sC -sV -O {ip_address} -p {nmapPortSelection}")
+                portQuery = input("Would you like to [1] scan a specific port or [2] all ports? >>> ")
+                if portQuery == 1:
+                    os.system(f"nmap -sC -sV -O {ip_address} -p {nmapPortSelection}")
+                elif portQuery == 2:
+                    os.system(f"nmap -sC -sV -O {ip_address}")
             elif nmapChoice == 4:
                 # Intense Scan
-                os.system(f"nmap -sC -sV -O --script vuln -T6 {ip_address} -p {nmapPortSelection}")
+                portQuery = input("Would you like to [1] scan a specific port or [2] all ports? >>> ")
+                if portQuery == 1:
+                    os.system(f"nmap -sC -sV -O --script vuln -T6 {ip_address} -p {nmapPortSelection}")
+                elif portQuery == 2:
+                    os.system(f"nmap -sC -sV -O --script vuln -T6 {ip_address}")
             elif choice == 5:
                 # Super Scan
                 verbosity_level = input("Select the level of verbosity (the mount of info shown) (1/2/3) >>> ")
                 verbosity_args = f"-{'v'*{verbosity_level}}"
-                os.system(f"nmap -sC -sV -O --script vuln -T6 {verbosity_args} {ip_address} -p {nmapPortSelection}")
+                portQuery = input("Would you like to [1] scan a specific port or [2] all ports? >>> ")
+                if portQuery == 1:
+                    os.system(f"nmap -sC -sV -O --script vuln -T6 {verbosity_args} {ip_address} -p {nmapPortSelection}")
+                elif portQuery == 2:
+                    os.system(f"nmap -sC -sV -O --script vuln -T6 {verbosity_args} {ip_address}")
             else:
                 # Returns to the beginning of the function once complete
                 return main()
