@@ -10,7 +10,7 @@ EZToolkit allows you to perform perform lengthy, cumbersome and constantly repea
 
 # **Installation**
 
-## **[Linux](https://wikipedia.org/wiki/Linux) Installation: **
+## **[Linux](https://wikipedia.org/wiki/Linux) Installation:**
 ### Clone the repository: 
 ```
 $ git clone https://github.com/Wh1ppedKreem/EZToolkit.git
