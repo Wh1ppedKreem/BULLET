@@ -1,6 +1,7 @@
 # **EZToolkit**
 [![Python Version](https://img.shields.io/badge/Python-v3.11%2B-blue)](https://www.python.org/downloads/)
-EZToolkit allows you to perform perform lengthy, cumbersome and constantly repeating commands with ease. It can:
+
+### EZToolkit allows you to perform perform lengthy, cumbersome and constantly repeating commands with ease. It can:
  - Create msfvenom payloads
  - Setup a listener
  - Perform Nmap scans
