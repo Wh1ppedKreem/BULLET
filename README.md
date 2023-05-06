@@ -22,7 +22,7 @@ BULLET is a penetration testing framework with many of the necessary tools a hac
 ## **[Linux](https://wikipedia.org/wiki/Linux) Installation:**
 ### Clone the repository: 
 ```
-$ git clone https://github.com/Wh1ppedKreem/EZToolkit.git
+$ git clone https://github.com/Wh1ppedKreem/BULLET.git
 ```
 ### Change directory to "BULLET": 
 ```
