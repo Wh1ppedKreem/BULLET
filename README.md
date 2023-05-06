@@ -36,6 +36,7 @@ $ sudo python3 bullet.py
 ```
 Enter an option [1-9] [99 to exit]: 9
 ```
-
+# How to start BULLET faster
+Please run the "download requirements option" in BULLET, not only will it keep the necessary tools and packages updated, but it will also enable you to run bullet simply by executing it like this "sudo ./bullet.py" rather than "sudo python3 bullet.py".
 # License Information
 The BULLET Framework is licensed under the GNU General Public License v3.0
