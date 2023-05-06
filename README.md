@@ -19,7 +19,7 @@ BULLET is a penetration testing framework with many of the necessary tools a hac
 
 # **Installation**
 
-## **[Linux](https://wikipedia.org/wiki/Linux) Installation:**
+## **[Linux](https://wikipedia.org/wiki/Linux) & [macOS](https://en.wikipedia.org/wiki/MacOS) Installation:**
 ### Clone the repository: 
 ```
 $ git clone https://github.com/Wh1ppedKreem/BULLET.git
