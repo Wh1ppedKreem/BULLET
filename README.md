@@ -1,6 +1,6 @@
 # **BULLET Framework** [![Python Version](https://img.shields.io/badge/Python-v3.11%2B-blue)](https://www.python.org/downloads/)
 
-BULLET is a penetration testing framework with all the necessary tools a hacker would need without the hassle of typing out all the commands. Now, you can setup a listener, generate a payload, run an SQLi scan, run a network scan, bruteforce service passwords, bruteforce hashes, scan for directories, scan for usernames, encode/decode base64 and perform DoS attacks all in one place. It's like a swiss army knife for hacking!
+BULLET is a penetration testing framework with many of the necessary tools a hacker would need without the hassle of typing out all the commands. Now, you can setup a listener, generate a payload, run an SQLi scan, run a network scan, bruteforce service passwords, bruteforce hashes, scan for directories, scan for usernames, encode/decode base64 and perform DoS attacks all in one place. It's like a swiss army knife for hacking!
 
 <p align="center">
   <img src="Images/bulletmainmenu.png" width="500px" alt="BULLET-Main-Menu" />
